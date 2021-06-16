@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-uncurry-right",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Transform a curried function into a function invoked with multiple arguments.",
   "license": "Apache-2.0",
   "author": {
