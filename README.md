@@ -20,7 +20,7 @@ limitations under the License.
 
 # uncurryRight
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Transform a curried function into a function invoked with multiple arguments.
 
@@ -234,9 +234,9 @@ out = uncurried.apply( null, abcs );
 
 ## See Also
 
--   [`@stdlib/utils/curry`][@stdlib/utils/curry]: transform a function into a sequence of functions each accepting a single argument.
--   [`@stdlib/utils/curry-right`][@stdlib/utils/curry-right]: transform a function into a sequence of functions each accepting a single argument.
--   [`@stdlib/utils/uncurry`][@stdlib/utils/uncurry]: transform a curried function into a function invoked with multiple arguments.
+-   <span class="package-name">[`@stdlib/utils/curry`][@stdlib/utils/curry]</span><span class="delimiter">: </span><span class="description">transform a function into a sequence of functions each accepting a single argument.</span>
+-   <span class="package-name">[`@stdlib/utils/curry-right`][@stdlib/utils/curry-right]</span><span class="delimiter">: </span><span class="description">transform a function into a sequence of functions each accepting a single argument.</span>
+-   <span class="package-name">[`@stdlib/utils/uncurry`][@stdlib/utils/uncurry]</span><span class="delimiter">: </span><span class="description">transform a curried function into a function invoked with multiple arguments.</span>
 
 </section>
 
@@ -287,8 +287,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/utils-uncurry-right/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/utils-uncurry-right?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/utils-uncurry-right.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/utils-uncurry-right/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
