@@ -45,14 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-uncurry-right
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import uncurryRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uncurry-right@deno/mod.js';
+var uncurryRight = require( '@stdlib/utils-uncurry-right' );
 ```
 
 #### uncurryRight( fcn\[, arity]\[, thisArg] )
@@ -163,9 +179,9 @@ sum = fcn( 4 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import fromCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-from-code-point@deno/mod.js';
-import curryRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry-right@deno/mod.js';
-import uncurryRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uncurry-right@deno/mod.js';
+var fromCodePoint = require( '@stdlib/string-from-code-point' );
+var curryRight = require( '@stdlib/utils-curry-right' );
+var uncurryRight = require( '@stdlib/utils-uncurry-right' );
 
 var uncurried;
 var curried;
@@ -254,7 +270,7 @@ out = uncurried.apply( null, abcs );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -316,11 +332,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/curry]: https://github.com/stdlib-js/utils-curry/tree/deno
+[@stdlib/utils/curry]: https://github.com/stdlib-js/utils-curry
 
-[@stdlib/utils/curry-right]: https://github.com/stdlib-js/utils-curry-right/tree/deno
+[@stdlib/utils/curry-right]: https://github.com/stdlib-js/utils-curry-right
 
-[@stdlib/utils/uncurry]: https://github.com/stdlib-js/utils-uncurry/tree/deno
+[@stdlib/utils/uncurry]: https://github.com/stdlib-js/utils-uncurry
 
 <!-- </related-links> -->
 
