@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-uncurry-right",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Transform a curried function into a function invoked with multiple arguments.",
   "license": "Apache-2.0",
   "author": {
@@ -37,9 +37,9 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-function": "^0.1.1",
-    "@stdlib/assert-is-positive-integer": "^0.1.0",
-    "@stdlib/string-format": "^0.1.1"
+    "@stdlib/assert-is-function": "^0.2.0",
+    "@stdlib/assert-is-positive-integer": "^0.2.0",
+    "@stdlib/string-format": "^0.2.0"
   },
   "devDependencies": {
     "@stdlib/random-base-randu": "^0.1.0",
