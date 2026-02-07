@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import uncurryRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uncurry-right@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-uncurry-right/tags). For example,
+
+```javascript
 import uncurryRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uncurry-right@v0.2.3-deno/mod.js';
 ```
 
@@ -165,7 +170,7 @@ sum = fcn( 4 );
 ```javascript
 import fromCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-from-code-point@deno/mod.js';
 import curryRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry-right@deno/mod.js';
-import uncurryRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uncurry-right@v0.2.3-deno/mod.js';
+import uncurryRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uncurry-right@deno/mod.js';
 
 var uncurried;
 var curried;
