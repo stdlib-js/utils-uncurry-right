@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-uncurry-right",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Transform a curried function into a function invoked with multiple arguments.",
   "license": "Apache-2.0",
   "author": {
@@ -38,12 +38,12 @@
   },
   "dependencies": {
     "@stdlib/assert-is-function": "^0.2.2",
-    "@stdlib/assert-is-positive-integer": "^0.2.2",
-    "@stdlib/string-format": "^0.2.2",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
+    "@stdlib/assert-is-positive-integer": "^0.2.3",
+    "@stdlib/string-format": "^0.2.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
-    "@stdlib/random-base-randu": "^0.2.1",
+    "@stdlib/random-base-randu": "^0.2.2",
     "@stdlib/string-from-code-point": "^0.2.2",
     "@stdlib/utils-curry-right": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
